@@ -6,7 +6,7 @@ import { Inter } from "next/font/google";
 import "@/app/globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { locales } from '@/i18n/request';
+const locales = ['tr', 'en', 'de'];
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 

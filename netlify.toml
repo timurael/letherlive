@@ -20,21 +20,10 @@
   from = "/"
   to = "/en"
   status = 302
-  conditions = {Language = ["en"]}
-
-[[redirects]]
-  from = "/"
-  to = "/tr"
-  status = 302
-  conditions = {Language = ["tr"]}
-
-[[redirects]]
-  from = "/"
-  to = "/de"
-  status = 302
-  conditions = {Language = ["de"]}
+  force = false
 
 [[redirects]]
   from = "/*"
   to = "/en/:splat"
-  status = 302
+  status = 404
+  force = false

@@ -2,14 +2,16 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { locales } from '@/i18n/request';
+import { usePathname, useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
+
+const locales = ['tr', 'en', 'de'];
 
 export default function Navigation() {
   const t = useTranslations('navigation');
   const locale = useLocale();
   const pathname = usePathname();
+  const router = useRouter();
 
   const navItems = [
     { href: '/', label: t('home') },
@@ -20,9 +22,9 @@ export default function Navigation() {
     { href: '/faq', label: t('faq') },
   ];
 
-  const getLanguageSwitchUrl = (newLocale: string) => {
-    const pathWithoutLocale = pathname.replace(`/${locale}`, '') || '/';
-    return `/${newLocale}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`;
+  const switchLocale = (newLocale: string) => {
+    const currentPath = pathname.replace(`/${locale}`, '') || '/';
+    router.push(`/${newLocale}${currentPath}`);
   };
 
   return (
@@ -55,15 +57,15 @@ export default function Navigation() {
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm">
               {locales.map((lng) => (
-                <Link
+                <button
                   key={lng}
-                  href={getLanguageSwitchUrl(lng)}
+                  onClick={() => switchLocale(lng)}
                   className={`uppercase hover:text-citrus transition-colors ${
-                    locale === lng ? 'text-citrus font-bold' : ''
+                    locale === lng ? 'text-citrus font-bold' : 'text-white'
                   }`}
                 >
                   {lng}
-                </Link>
+                </button>
               ))}
             </div>
           </div>
