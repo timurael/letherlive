@@ -1,0 +1,62 @@
+# Let Her Live - Website Project
+
+## Project Overview
+This is a tri-lingual (Turkish/English/German) activist website for Cemre, a 19-year-old trans woman in Turkey who needs urgent support for survival. The website tells her story, raises funds, and mobilizes visibility.
+
+## Tech Stack
+- **Frontend**: Next.js 15 (App Router)
+- **Styling**: TailwindCSS
+- **Animations**: Framer Motion
+- **i18n**: next-intl or i18next
+- **CMS**: MDX or Sanity
+- **Deployment**: Vercel
+- **Analytics**: Plausible (GDPR-compliant)
+- **Payments**: GoFundMe embed + PayPal.Me + IBAN
+
+## Key Design Elements
+- **Colors**: 
+  - Background: Jet black
+  - CTAs: Citrus green (#A3FF00)
+  - Accents: Neon pink
+  - Text overlays: Grape (#6A0DAD)
+- **Typography**: Druk/Neue Montreal (headlines), Inter (body)
+- **Effects**: Soft glitch animations, low-res grain overlays, pixel motifs
+- **Imagery**: Dark, intimate, high-contrast
+
+## Site Structure
+- `/` - Homepage with hero video, intro, donate CTA, live goal meter
+- `/story` - Full timeline, video embed, image/quote blocks
+- `/support` - Transparent cost breakdown, donation channels
+- `/updates` - Blog-like space for new images, receipts, milestones
+- `/media-kit` - Downloadable social graphics, captions, hashtags
+- `/faq` - Common questions in all three languages
+
+## Development Guidelines
+- Mobile-first design
+- Keyboard navigation
+- ARIA roles for accessibility
+- Dark mode toggle
+- Font-size switch
+- No autoplay audio
+- Progress bar animations
+- Scroll-triggered effects
+
+## Content Guidelines
+- Voice: Personal, first-person, direct
+- Tone: Honest but not pitiful, urgent but not manipulative
+- Emotion: Raw, brave, quietly defiant
+- Avoid NGO-speak - this is a survival story, not a case study
+
+## Localization
+- Turkish: Primary emotional language, anchors authenticity
+- English: For fundraising and global allyship
+- German: Strong donation culture focus
+- Language switcher in header: TR | EN | DE
+- Auto-detect browser language with English fallback
+
+## Security & Privacy
+- GDPR-compliant analytics
+- Secure payment integrations
+- No tracking cookies
+- SSL/HTTPS required
+- Protect Cemre's safety in all content decisions

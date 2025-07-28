@@ -1,0 +1,105 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "story": "Geschichte",
+    "support": "Unterstützen",
+    "updates": "Updates",
+    "mediaKit": "Medienpaket",
+    "faq": "FAQ"
+  },
+  "homepage": {
+    "hero": {
+      "line1": "Cemre lebt – aber ihr Überleben hängt von Hilfe ab.",
+      "line2": "19-jährige trans Frau. Von der Familie verstoßen. Obdachlos. In Gefahr.",
+      "line3": "Sieh sie. Hilf ihr.",
+      "donateNow": "Jetzt Spenden →"
+    },
+    "intro": {
+      "title": "Hallo, ich bin Cemre",
+      "text": "Ich bin 19 Jahre alt und eine trans Frau. Meine Familie hat mich verstoßen und aus dem Haus geworfen. Seit sieben Monaten bin ich obdachlos. Ich habe auf der Straße geschlafen, wurde belästigt und angegriffen. Im Moment bin ich nicht sicher. Ich brauche Ihre Hilfe."
+    },
+    "donation": {
+      "goal": "Ziel",
+      "raised": "Gesammelt",
+      "donors": "Spender",
+      "percentComplete": "erreicht"
+    }
+  },
+  "story": {
+    "title": "Cemres Geschichte",
+    "timeline": {
+      "rejection": {
+        "title": "Verstoßen von der Familie",
+        "text": "Cemre ist 19 Jahre alt und trans. Ihre Familie hat sie verstoßen und aus dem Haus geworfen."
+      },
+      "homeless": {
+        "title": "Obdachlosigkeit",
+        "text": "Seit sieben Monaten ist sie obdachlos, oft gezwungen, auf der Straße zu schlafen."
+      },
+      "violence": {
+        "title": "Gewalt & Belästigung",
+        "text": "Sie wurde belästigt, angegriffen und beinahe vergewaltigt."
+      },
+      "temporary": {
+        "title": "Vorübergehende Unterkunft",
+        "text": "Zurzeit kann sie vorübergehend bei ihrem Freund wohnen – doch auch dort ist sie nicht sicher."
+      }
+    },
+    "quote": "Ich will einfach wie alle anderen ein normales Leben führen. Arbeiten. In meiner eigenen Wohnung sicher sein. Ohne Angst gehen können…",
+    "context": "In der Türkei ist es für trans Menschen fast unmöglich, Arbeit zu finden. Cemre kämpft weiter – aber sie braucht jetzt dringend Hilfe."
+  },
+  "support": {
+    "title": "Cemre unterstützen",
+    "subtitle": "15 € = eine sichere Nacht für Cemre.",
+    "goal": "Ziel: 10.000 € für Unterkunft, medizinische Versorgung und Grundbedürfnisse.",
+    "breakdown": {
+      "title": "Kostenplan",
+      "housing": "Unterkunft (Miete, Nebenkosten)",
+      "medical": "Medizinisch (HRT, Therapie)",
+      "essentials": "Lebensmittel & Grundbedürfnisse",
+      "perMonth": "/ Monat",
+      "note": "100 % der Spenden fließen direkt in Unterkunft, medizinische Versorgung und Lebensnotwendiges für Cemre."
+    },
+    "methods": {
+      "title": "Spendenwege",
+      "card": "GoFundMe (Kreditkarte)",
+      "bank": "IBAN (EU & Türkei)",
+      "paypal": "PayPal"
+    }
+  },
+  "updates": {
+    "title": "Updates",
+    "loading": "Updates werden geladen...",
+    "empty": "Noch keine Updates."
+  },
+  "mediaKit": {
+    "title": "Medienpaket",
+    "subtitle": "Helfen Sie, Cemres Geschichte zu verbreiten",
+    "download": "Herunterladen",
+    "graphics": "Social Media Grafiken",
+    "captions": "Vorgefertigte Texte",
+    "hashtags": "Hashtags",
+    "press": "Pressematerialien"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": {
+      "real": {
+        "question": "Ist diese Kampagne echt?",
+        "answer": "Ja. Wir arbeiten direkt mit Cemre."
+      },
+      "money": {
+        "question": "Wer verwaltet das Geld?",
+        "answer": "Die Kampagnenleitung in Deutschland leitet alle Spenden direkt an Cemre weiter."
+      },
+      "safe": {
+        "question": "Ist sie jetzt in Sicherheit?",
+        "answer": "Noch nicht. Genau deshalb gibt es diese Kampagne."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Jedes Leben zählt.",
+    "privacy": "Datenschutz"
+  }
+}

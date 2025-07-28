@@ -1,0 +1,105 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "story": "Hikaye",
+    "support": "Destek",
+    "updates": "Güncellemeler",
+    "mediaKit": "Medya Kiti",
+    "faq": "SSS"
+  },
+  "homepage": {
+    "hero": {
+      "line1": "Cemre yaşıyor, ama hayatta kalması sizin desteğinize bağlı.",
+      "line2": "19 yaşında bir trans kadın. Ailesi reddetti, evsiz, güvende değil.",
+      "line3": "Onu görün. Ona yardım edin.",
+      "donateNow": "Hemen Destek Ol →"
+    },
+    "intro": {
+      "title": "Merhaba, ben Cemre",
+      "text": "19 yaşındayım ve trans bir kadınım. Ailem beni reddetti ve evden attı. Yedi aydır evsizim. Sokakta kaldım, taciz ve şiddete maruz kaldım. Şu anda güvende değilim. Sizin yardımınıza ihtiyacım var."
+    },
+    "donation": {
+      "goal": "Hedef",
+      "raised": "Toplanan",
+      "donors": "Destekçi",
+      "percentComplete": "tamamlandı"
+    }
+  },
+  "story": {
+    "title": "Cemre'nin Hikayesi",
+    "timeline": {
+      "rejection": {
+        "title": "Aileden Reddedilme",
+        "text": "Cemre 19 yaşında bir trans kadın. Kimliği yüzünden ailesi onu reddetti ve evden attı."
+      },
+      "homeless": {
+        "title": "Evsizlik",
+        "text": "Son yedi aydır bir evi yok. Çoğu zaman sokakta kaldı."
+      },
+      "violence": {
+        "title": "Şiddet ve Taciz",
+        "text": "Taciz, şiddet ve tecavüz girişimleri yaşadı."
+      },
+      "temporary": {
+        "title": "Geçici Barınak",
+        "text": "Şu anda erkek arkadaşının evinde geçici olarak kalıyor ama orası da güvenli değil."
+      }
+    },
+    "quote": "Ben sadece herkes gibi normal yaşamak istiyorum. Çalışmak, evimde güvende olmak, korkmadan yürüyebilmek…",
+    "context": "Cemre Türkiye'de transların iş bulmasının neredeyse imkânsız olduğunu biliyor. Ama direniyor. Yaşamak için desteğe ihtiyacı var."
+  },
+  "support": {
+    "title": "Cemre'ye Destek Ol",
+    "subtitle": "Her 15 € Cemre'ye bir gece güvenli uyku sağlar.",
+    "goal": "Hedefimiz: 10.000 € → barınma, tedavi, temel ihtiyaçlar.",
+    "breakdown": {
+      "title": "Yaşam Masrafları",
+      "housing": "Barınma (kira, faturalar)",
+      "medical": "Tıbbi (HRT, terapi)",
+      "essentials": "Yiyecek ve temel ihtiyaçlar",
+      "perMonth": "/ ay",
+      "note": "Tüm bağışlar Cemre'nin güvenli bir eve taşınması, tedaviye erişimi ve hayatta kalması için kullanılacaktır."
+    },
+    "methods": {
+      "title": "Bağış Yöntemleri",
+      "card": "GoFundMe (kart)",
+      "bank": "IBAN (Türkiye & AB için)",
+      "paypal": "PayPal"
+    }
+  },
+  "updates": {
+    "title": "Güncellemeler",
+    "loading": "Güncellemeler yükleniyor...",
+    "empty": "Henüz güncelleme yok."
+  },
+  "mediaKit": {
+    "title": "Medya Kiti",
+    "subtitle": "Cemre'nin hikayesini paylaşarak destek olun",
+    "download": "İndir",
+    "graphics": "Sosyal Medya Grafikleri",
+    "captions": "Hazır Yazılar",
+    "hashtags": "Hashtagler",
+    "press": "Basın Materyalleri"
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "items": {
+      "real": {
+        "question": "Bu kampanya gerçek mi?",
+        "answer": "Evet, Cemre ile doğrudan çalışıyoruz."
+      },
+      "money": {
+        "question": "Parayı kim yönetiyor?",
+        "answer": "Almanya'da yaşayan kampanya sorumlusu tüm bağışları Cemre'ye yönlendirir."
+      },
+      "safe": {
+        "question": "Cemre şu anda güvende mi?",
+        "answer": "Şimdilik güvende değil, bu kampanya bunu sağlamak için var."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Her yaşam değerlidir.",
+    "privacy": "Gizlilik"
+  }
+}
