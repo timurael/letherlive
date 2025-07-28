@@ -18,19 +18,21 @@ export default function SupportPage() {
       key: 'card',
       color: 'bg-citrus',
       textColor: 'text-black',
-      url: 'https://gofundme.com/letherlive'
+      url: '#',
+      message: 'GoFundMe link will be available soon'
     },
     { 
       key: 'bank',
       color: 'bg-grape',
       textColor: 'text-white',
-      details: 'IBAN: DE89 3704 0044 0532 0130 00'
+      details: 'Contact us for bank transfer details'
     },
     { 
       key: 'paypal',
       color: 'bg-neonPink',
       textColor: 'text-white',
-      url: 'https://paypal.me/letherlive'
+      url: '#',
+      message: 'PayPal link will be available soon'
     },
   ];
 
@@ -61,7 +63,7 @@ export default function SupportPage() {
             transition={{ delay: 0.2 }}
             className="mb-12"
           >
-            <DonationMeter goal={10000} raised={1250} donors={42} />
+            <DonationMeter goal={10000} raised={0} donors={0} />
           </motion.div>
 
           <motion.div
@@ -116,13 +118,13 @@ export default function SupportPage() {
                     {t(`methods.${method.key}`)}
                   </h3>
                   {method.details && (
-                    <p className="text-sm opacity-80 font-mono">
+                    <p className="text-sm opacity-80">
                       {method.details}
                     </p>
                   )}
-                  {method.url && (
+                  {method.message && (
                     <p className="text-sm opacity-80 mt-2">
-                      Click to donate →
+                      {method.message}
                     </p>
                   )}
                 </motion.div>

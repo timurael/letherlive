@@ -16,7 +16,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
       </section>
 
       <section className="container mx-auto px-4 pb-20">
-        <DonationMeter goal={10000} raised={1250} donors={42} />
+        <DonationMeter goal={10000} raised={0} donors={0} />
       </section>
 
       <section className="container mx-auto px-4 pb-20">
